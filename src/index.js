@@ -168,7 +168,6 @@ client.on('interactionCreate', async (interaction) => {
             interaction.reply('**Došlo je do greške prilikom prikaza leaderboard-a.**');
         }
     
-    
     } else if (commandName === 'peak') {
         try {
             // Find the user with the lowest peak reputation
