@@ -93,8 +93,16 @@ const commands = [
     
   },
   {
+
+    name: 'smokljan',
+    description: 'PEAK NAJGOREG MLS MEMBERA ALLTIME',
+    
+  },
+  {
+
     name: 'peak',
     description: 'PEAK NAJGOREG MLS MEMBERA ALLTIME',
+    
   },
   {
     name: 'help',
