@@ -1,6 +1,13 @@
 require('dotenv').config();
 const { Client, Intents, IntentsBitField } = require('discord.js');
 const mongoose = require('mongoose');
+const path = require('path'); // Import the 'path' module
+
+// Construct an absolute path to register-commands.js
+const registerCommandsPath = path.join(__dirname, 'register-commands.js');
+
+// Include the register-commands.js script using the absolute path
+require(registerCommandsPath);
 
 const client = new Client({
     intents: [
